@@ -1,0 +1,40 @@
+<script>
+
+var nome, resultado, Nota1, Nota2, Nota3, media;
+		nome = prompt("Digite o nome do aluno : ")
+		console.log (nome);
+		Nota1 = parseFloat(prompt("Digite a Nota 1: "));
+		console.log (Nota1);
+		Nota2 = parseFloat(prompt("Digite a Nota 2: "));
+		console.log (Nota2);
+		Nota3 = parseFloat(prompt("Digite a Nota 3: "));
+		console.log (Nota3);
+		media = (Nota1+Nota2+Nota3)/3;
+		media = media.toFixed(2);
+		
+		if (media>= 7)
+		{
+		resultado="Aprovado";
+		}
+		else
+		{
+		resultado="Reprovado";
+		}
+		alert (nome+" teve a media: "+media+" e foi: "+resultado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>

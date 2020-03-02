@@ -1,0 +1,20 @@
+<script>
+    var numeros=[];
+    numeros.push(parseInt(prompt("Digite o primeiro numero: ")));
+    numeros.push(parseInt(prompt("Digite o segundo numero: ")));
+    numeros.push(parseInt(prompt("Digite o terceiro numero: ")));
+    console.log(numeros);
+    if(numeros[0]>numeros[1]&&numeros[0]>numeros[2])
+    {
+        document.write(`O primeiro numero e o maior: ${numeros[0]}`);
+    }
+    else if (numeros[1]>numeros[0]&&numeros[1]>numeros[2])
+    {
+        document.write(`O segundo numero e o maior: ${numeros[1]}`);
+    }
+    else 
+    {
+        document.write(`O terceiro numero e o maior: ${numeros[2]}`);
+    }
+
+</script>

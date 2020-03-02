@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generation Ex4</title>
+    <!--colocar icone na aba-->
+    <link rel="icon" href="assets/imagens/narutin.png">
+    <style>
+        /*<!-- Organizar os setores dos mais amplos para os mais especificos-->*/
+        *{box-sizing: border-box;
+        /* resetar margin e padding alinhar com as bordas do site*/
+        margin:0; padding:0;}
+        header {
+            background-color: blue;
+            width: 600px;
+            height: 100px;
+        }
+
+        nav {
+            background-color: orangered;
+            width: 100%;
+            height: 80px;
+        }
+
+        main {
+            background-color: black;
+            width: 600px;
+            height: 420px;
+        }
+
+        article {
+            background-color: chartreuse;
+            width: 400px;
+            height: 420px;
+            float: left;
+        }
+
+        section {
+            background-color: pink;
+            width: 350px;
+            height: 200px;
+            margin-left: 25px;
+            
+        }
+
+        aside {
+            background-color: purple;
+            width: 200px;
+            height: 420px;
+            float: left;
+        }
+
+        footer {
+            background-color: blueviolet;
+            width: 600px;
+            height: 100px;
+            padding-top: 10px;
+            padding-left: 5px;
+            
+        }
+
+        #caixa {
+            width: 600px;
+            height: 700px;
+            margin: 0 auto;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <!--estruturas semânticas-->
+    <div id="caixa">
+        <header>Header</header>
+        <nav>Navigation</nav>
+        <main>
+            <article>
+                <section style="margin-top: 10px;">Seletion dentro do article</section>
+                <section>Seletion dentro do article</section>
+            </article>
+            <aside>aside</aside>
+        </main>
+        <footer>footer</footer>
+    </div>
+
+</body>
+
+</html>

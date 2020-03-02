@@ -1,0 +1,37 @@
+<script>
+var cadeia, nome, resultado, nota1, nota2, media;
+		nome = prompt("Digite o nome do aluno : ");
+		console.log (nome);
+		nota1 = parseFloat(prompt ("Digite a Nota 1: "));
+		console.log (nota1);
+		nota2 = parseFloat(prompt("Digite a Nota 2: "));
+		console.log (nota2);
+		media= (nota1+nota2)/2;
+		
+
+		if (media <=5)
+		{
+			 resultado  = ("Reprovado");
+		
+		}
+		else
+		{
+			if (media >=5 & media <7)
+			{
+			 resultado = ("Exame");
+			}
+			else
+			{
+				resultado = ("Aprovado");
+			 
+			}
+			console.log (media+ "sua media" +media+ " " +resultado);
+	
+		}
+	
+
+
+
+
+
+</script>

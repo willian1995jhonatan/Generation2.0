@@ -1,0 +1,27 @@
+<script>
+        var cadeia, nome, salario, aumento, novoSalario;
+		nome = prompt("Digite o nome do Funcionário: ");
+		console.log (nome);
+		salario = parseFloat(prompt("Digite o salário do Funcionário: "));
+		console.log (salario);
+
+		if (salario>= 5000)
+		{
+			aumento= (salario*(1.05));
+			
+		}
+		else 
+		{
+			aumento= (salario*(1.10));
+			
+		}
+		novoSalario = salario+aumento
+		alert  ("Funcionário: " +nome+ "\nsalario atual: " + salario + "\n Aumentou Para: " +novoSalario);
+	
+
+
+
+
+
+
+</script>

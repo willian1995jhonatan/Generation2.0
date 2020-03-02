@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var palavra=prompt("Digite uma frase: ")
+    var vetor = palavra.split(" ");
+    var maior = vetor[0];
+    for(var i=1; i < vetor.length; i++)
+    {
+    if (maior.length < vetor[i].length)
+    {
+        maior=vetor[i]
+        
+    }
+    
+    }
+    alert (maior)
+    </script>
+</body>
+</html>

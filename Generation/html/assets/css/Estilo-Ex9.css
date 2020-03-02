@@ -1,0 +1,62 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+header {background-color:orangered;
+width: 1200px;
+height: 185px;}
+
+nav {background-color: orchid;
+width: 1200px;
+height: 70px;}
+
+#article1 {background-color: purple;
+width: 150px;
+height: 1000px;
+float: left;}
+
+#section1 {background-color: red;
+width: 450px;
+height: 500px;
+float: left;}
+
+#section2 {background-color: blue;
+    width: 450px;
+    height: 500px;
+    float: left;}
+
+    #section3 {background-color: violet;
+        width: 450px;
+        height: 500px;
+        float: left;}
+
+        #section4 {background-color: cyan;
+            width: 450px;
+            height: 500px;
+            float: left;}
+
+#article2 {background-color: saddlebrown;
+width: 150px;
+height: 1000px;
+float: left;}
+
+#aside1 {background-color: fuchsia;
+width: 600px;
+height: 200px;
+float: left;}
+
+#aside2 {background-color: greenyellow;
+    width: 600px;
+    height: 200px;
+    float: right;}
+
+footer {background-color: gray;
+width: 1200;
+height: 100;
+clear: both;}
+
+#caixa {
+    width: 1200px;
+    margin: 0 auto
+
+}

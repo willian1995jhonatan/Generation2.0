@@ -1,0 +1,38 @@
+*{box-sizing: border-box; padding: 0; margin: 0;}
+
+header {width: 100%;height: px;
+background-color:green ; text-align: center; border: black solid 1px;}
+
+nav {width: 100%;height: 50px;
+    background-color: orangered ; border: black 1px; border: black solid 1px;}
+    
+main {width: 100%;height: 700px;
+    background-color: grey; border: "1px" black; border:2px black solid 1px;}
+
+footer {width: 100%;height: 100px;
+    background-color:orangered ; border: 5px black 5px solid 1px;}
+
+img {width: 100%; margin-top: 50%;}
+
+section {width: 100%; height: 300px;}
+
+.item {color: black; font-size: 1.2em; display: inline-block; padding-left: 20px; padding-top: 2%;}
+
+#principal {
+    width: 50%;
+    margin: auto; border: black solid 1px;
+    }
+
+#menu {list-style: none;
+text-align: center; float: center ; padding-right:20px ;}
+#chora {width: 100px; margin: 0 auto;}
+
+#imagem {width: 50%; margin: 0 auto; }
+
+a {text-decoration: none;
+color: black; font-size: 3;}
+
+#whats {width: 40px; height: 50px;}
+
+.tresimagens {width: 20%; float: right  ; margin: 0 auto;border: black 1px solid;margin-right: 10px; box-shadow: black 4px 3px; }
+

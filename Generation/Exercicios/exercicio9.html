@@ -1,0 +1,54 @@
+<script>
+        var cadeia, codigo, ano_nasc, ano_adm, idade, tempoTrabalho, ano_atual;
+		codigo = parseInt(prompt("Digite o codigo do Funcionario: "));
+		console.log (codigo);
+		ano_nasc = parseInt(prompt("Digite o ano de nascimento: "));
+		console.log (ano_nasc);
+		ano_adm = parseInt(prompt("Ano de admissão"));
+		console.log (ano_adm);
+		idade = parseInt(prompt("idade"));
+		console.log (idade);
+		tempoTrabalho = prompt("Tempo de Trabalho: ");
+		console.log (tempoTrabalho);
+		ano_atual = parseInt(prompt("ano atual"));
+		console.log (ano_atual);
+		idade =(ano_atual-ano_nasc);
+		tempoTrabalho = (ano_atual-ano_adm);
+		
+
+		if (idade >=65)
+		{
+			alert ("Requerer por idade");
+		}
+		else{
+			if (tempoTrabalho >=30)
+		{
+			alert ("requerer por tempo de trabalho");
+			}
+			else {
+				
+			}
+			if (idade >60 & tempoTrabalho>25)
+			{
+				alert ("Requerer por idade e tempo de trabalho");
+
+			}
+			else 
+			{
+				alert ("Aposentadoria negada");
+			}
+		}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+</script>

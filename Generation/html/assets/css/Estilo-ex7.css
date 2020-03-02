@@ -1,0 +1,45 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+header {
+    background-color: crimson;
+    width: 1200px;
+    height: 185px;
+}
+
+nav {
+    background-color: darkblue;
+    width: 1200px;
+    height: 70px;
+}
+
+article {
+    background-color: cyan;
+    width: 280px;
+    height: 1000px;
+    float: left;
+}
+aside {
+    background-color: darkgreen;
+    width: 920px;
+    height: 1000px;
+    float: right;
+}
+
+
+
+
+footer {
+    background-color: blueviolet;
+    width: 1200px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+#caixa {
+    width: 600px;
+    height: 700px;
+
+}

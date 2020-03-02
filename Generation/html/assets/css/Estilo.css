@@ -1,0 +1,39 @@
+/* comentário
+/* sintaxe: 
+elemento {propriedade;
+    propriedade: valor}*/
+h1 {color: orangered; 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lacquer', sans-serif;
+    background-color: black;}
+
+h1 {color: black; 
+    text-align: center;
+    font-size: 2000px;
+    font-family: 'Lacquer', sans-serif;
+    background-color: black;}
+
+h1 {color: red; 
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Lacquer', sans-serif;
+    background-color:black;}
+    
+    /*seletor de if*/
+
+#paragrafo1 {color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    font-family: '', Arial, Helvetica, sans-serif}
+
+    #paragrafo2 {color: black;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: brown;}
+    .grupo1 {font-size: 30px;}
+    .grupo2 {color: magenta;}
+    
