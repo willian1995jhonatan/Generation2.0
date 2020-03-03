@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ol id="grupo">
+        
+        <br>
+    </ol>
+    
+    <button id="adicionar" onclick="adicionar()" title="Apenas um clique">adicionar</button>
+    <button id="remover" ondblclick="remover()" title="Duplo clique para remover">remover</button>
+    <script>
+        function adicionar() {
+            var texto = prompt("Digite o produto da lista: ")
+            var ul = document.getElementById("grupo");
+            var li = document.createElement("li");
+            li.className = "item";
+
+            li.appendChild(document.createTextNode(texto)) //Texto da lista
+            ul.appendChild(li);
+        }
+    
+        function remover() {
+            var ul = document.getElementById("grupo");
+            ul.innerHTML = "Lista Removida";
+            ul.length = 0;
+        }
+    </script>
+
+</body>
+</html>
