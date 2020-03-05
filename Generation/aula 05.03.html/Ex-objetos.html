@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        try {
+        //metodo construtor
+        function Carro (_marca,_anoFabricacao,_velMaxima,_velAtual)
+        {
+            //atributos
+            this.marca=_marca
+            this.anoFabricacao=_anoFabricacao
+            this.velMaxima=_velMaxima
+            this.velAtual=(0 || _velAtual)
+        }
+        
+        //metodo acelerar
+        Carro.prototype.acelerar=function()
+        {
+            if (this.velAtual<this.velMaxima)
+            {
+                this.velAtual++
+                alert ("Velocidade atual: "+this.velAtual)
+            }
+            else {
+                alert ("Você já está na velocidade máxima!")
+            }
+        }
+
+        //metodo desacelerar
+        Carro.prototype.desacelerar=function()
+        {
+            if (this.velAtual<1)
+            {
+                alert ("O Carro já está parado!")
+                
+            }    
+            else {
+                (this.velAtual--)
+                alert ("Velocidade atual: "+this.velAtual)
+            }
+        }
+
+        //uitilizando a estrutura acima
+        //instanciar = criar uma copia do objeto
+
+        carro1=new Carro("Honda",2020,5,"")
+        carro1.acelerar()
+        carro1.acelerar()
+        carro1.acelerar()
+        carro1.acelerar()
+        carro1.acelerar()
+        carro1.acelerar()
+        carro1.desacelerar()
+        carro1.desacelerar()
+        carro1.desacelerar()
+        carro1.desacelerar()
+        carro1.desacelerar()
+        carro1.desacelerar()
+    } //fechando o try
+
+    catch (erro) {
+        alert ("Erro: "+erro)
+    }
+    </script>
+
+</body>
+</html>
