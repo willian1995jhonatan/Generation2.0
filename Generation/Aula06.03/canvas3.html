@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+    <style> #quadro {border: 1px solid black}</style>
+<body>
+    <canvas width="250" height="250" id="quadro">
+    <img src="../Aula06.03/img/HorribleEmbarrassedEgg-size_restricted.gif" style="width: 100%;" alt="">
+    </canvas>
+
+    <script>
+        var canvas=document.getElementById("quadro")
+
+        if (canvas.getContext) {
+            var contexto=canvas.getContext("2d")
+            contexto.fillStyle="rgba(0,149,197,0.8)"
+            //desenhando o circulo
+            contexto.arc(100,100,40,Math.PI/180*45, Math.PI/180*315)
+            // fazendo as linhas
+            contexto.lineTo(100,100)
+            contexto.lineTo(129,129)
+            contexto.fillStyle="rgb(255,255,0)"
+            contexto.fill()
+            contexto.stroke()
+        }
+        else
+        {
+            alert ("Navegador não suporta o canvas!")
+        }
+    </script>
+</body>
+</html>

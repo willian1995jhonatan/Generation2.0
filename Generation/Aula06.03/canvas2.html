@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas {border: 1px solid black; 
+        background-color: blue;}
+    </style>
+</head>
+<body>
+    <canvas width="300" height="300" id="quadro"></canvas>
+    <script>
+        var quadro=document.getElementById("quadro")
+        //verificando se há suporte do navegador
+        if (quadro.getContext) {
+            var contexto=quadro.getContext("2d")
+            //rgba é para deixar a cor transparente rgb é cor solida
+            contexto.fillStyle="rgba(0,149,197,0.5)"
+            contexto.fillRect(30,30,200,100)
+            
+
+        }
+        else {
+            alert ("Não funciona neste navegador!")
+        }
+    </script>
+</body>
+</html>
